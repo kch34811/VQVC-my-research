@@ -12,7 +12,7 @@ This repository contains the implementation of a one-shot voice conversion model
 </br>
 
 ## Key Features
-* One-shot Voice Conversion: Transform voices with minimal data.
+* <b>One-shot Voice Conversion</b>: Transform voices with minimal data.
 * VQVC Model: Utilizes Vector Quantization for separating content and speaker information.
 * WavLM Integration: Generates SSL features directly from waveforms for high-quality embeddings.
 * Vocoder (VocGAN): Converts Mel-spectrograms to final audio waveforms.
