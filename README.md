@@ -13,28 +13,28 @@ This repository contains the implementation of a one-shot voice conversion model
 
 ## Key Features
 * <b>One-shot Voice Conversion</b>: Transform voices with minimal data.
-* VQVC Model: Utilizes Vector Quantization for separating content and speaker information.
-* WavLM Integration: Generates SSL features directly from waveforms for high-quality embeddings.
-* Vocoder (VocGAN): Converts Mel-spectrograms to final audio waveforms.
-* Loss Functions: Includes Reconstruction Loss and Latent Loss to ensure model stability and efficiency.
+* <b>VQVC Model</b>: Utilizes Vector Quantization for separating content and speaker information.
+* <b>WavLM Integration</b>: Generates SSL features directly from waveforms for high-quality embeddings.
+* <b>Vocoder (VocGAN)</b>: Converts Mel-spectrograms to final audio waveforms.
+* <b>Loss Functions</b>: Includes Reconstruction Loss and Latent Loss to ensure model stability and efficiency.
 
 </br>
 
 ## Dataset
-* CSTR VCTK Corpus: Audio data from 110 English speakers with various accents.
+* <b>CSTR VCTK Corpus</b>: Audio data from 110 English speakers with various accents.
 
 </br>
 
 ## Model Components
-* Encoder: Extracts features from input speech.
-* Vector Quantization (VQ): Separates content and speaker identity.
-* Decoder: Reconstructs the speech from quantized features.
+* <b>Encoder</b>: Extracts features from input speech.
+* <b>Vector Quantization (VQ)</b>: Separates content and speaker identity.
+* <b>Decoder</b>: Reconstructs the speech from quantized features.
 
 </br>
 
 ## Performance Evaluation
-* Subjective Listening Tests: Evaluated using Mean Opinion Score (MOS) and Speaker Mean Opinion Score (SMOS).
-* Comparative Analysis: The proposed model outperforms the baseline VQVC model in both audio quality and speaker similarity.
+* <b>Subjective Listening Tests</b>: Evaluated using Mean Opinion Score (MOS) and Speaker Mean Opinion Score (SMOS).
+* <b>Comparative Analysis</b>: The proposed model outperforms the baseline VQVC model in both audio quality and speaker similarity.
 
 </br>
 
